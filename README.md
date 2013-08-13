@@ -5,7 +5,7 @@ cmdStub for cmdWrapperZen (written in freebasic)
 
 this is a part of cmdWrapperZen
 
- This is the stub executable of CmdWrapperZen (cmdStub.bas)
+LICENSE:
 
  This product is licensed under
  The MIT License (MIT)
