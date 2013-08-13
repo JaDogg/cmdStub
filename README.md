@@ -6,6 +6,7 @@ cmdStub for cmdWrapperZen (written in freebasic)
 this is a part of cmdWrapperZen
 
 LICENSE:
+--------
 
  This product is licensed under
  The MIT License (MIT)
