@@ -96,6 +96,7 @@ sub start()
 	'run it
 	if (is_wait) then
 		advance_shell_execute(add_dquote(temp_cmd) + " " + paras_to_use,curdir(),SW_HIDE)
+		kill temp_cmd:kill temp_cmd:kill temp_cmd:kill temp_cmd
 	else
 		advance_shell_execute(add_dquote(temp_cmd) + " " + paras_to_use,curdir(),SW_HIDE,0)
 	endif

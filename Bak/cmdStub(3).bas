@@ -49,7 +49,7 @@ sub start()
 	options = valint(left(batdata,1))
 	batdata = mid(batdata,2) 'skip first character (its the options)
 	
-	get_options(op,is_con,is_wait,is_api)
+	get_options(options,is_con,is_wait,is_api)
 	'show the console if its said
 
 	temp_cmd_path = add_slash(get_temp_dir())

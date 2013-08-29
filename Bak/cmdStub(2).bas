@@ -65,7 +65,7 @@ sub start()
 		api_data = "@echo off" + newl
 		api_data += "set CW_EXE_NAME=" + get_exename() + newl
 		api_data += "set CW_EXE_PATH=" + add_slash(exepath()) + newl
-		api_data += "set CW_EXE_FULL=" + command(0) + newl
+		api_data += "set CW_EXE_FULL=" + add_slash(exepath()) + get_exename() + newl
 		api_data += "set CW_EXE_NAME_NOEXT=" + strip_extension(get_exename()) + newl
 		
 		api_data += "set CW_CMD_NAME=" + temp_cmd_justname + newl
